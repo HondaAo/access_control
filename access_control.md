@@ -15,6 +15,10 @@
 - ユーザーの属性によって権限を設定
 - ユーザーはロール上実行可能であるがユーザーの属性上不可能的な
 
+## RAdAC(Risk Adaptive-Based Access Control)
+
+- リスク回避での判断
+
 ## まとめると
 
 >> ACL: Your name is on the list  
@@ -24,6 +28,8 @@
 
 ## Jでの提案
 
-- RBAC方式をテーブルで持つ
+- カスタムロールを設定しテーブルで持ち、それをユーザーに割り振る
 - ABACをチェックする関数を用意、都度チェック
-- オプション設定・隠しオプ設定も都度チェック、ドキュメントでまとめる必要あり
+
+### 参考
+- https://dzone.com/articles/acl-rbac-abac-pbac-radac-and-a-dash-of-cbac
