@@ -17,10 +17,10 @@
 
 ## まとめると
 
->> ACL: Your name is on the list
->> RBAC: You have a pink wristband
->> ABAC: You're the right age
->> RAdAC: You haven't been to a country with Spanish Flu
+>> ACL: Your name is on the list  
+>> RBAC: You have a pink wristband  
+>> ABAC: You're the right age  
+>> RAdAC: You haven't been to a country with Spanish Flu  
 
 ## Jでの提案
 
